@@ -97,8 +97,8 @@ for param in "$@"; do
         APPLICATION="${param:19}"
         echo "Using Application Name: ${APPLICATION}" 1>&2
     elif [ "${param:0:10}" = "--company=" ]; then
-        COMPANY="${param:11}"
-        echo "Using SDK Path: ${SDK_PATH}" 1>&2
+        COMPANY="${param:10}"
+        echo "Using Company: ${COMPANY}" 1>&2
     elif [ "${param:0:11}" = "--sdk-path=" ]; then
         SDK_PATH="${param:11}"
         echo "Using SDK Path: ${SDK_PATH}" 1>&2
@@ -108,6 +108,9 @@ for param in "$@"; do
     elif [ "${param:0:9}" = "--needle=" ]; then
         APPLICATION_NEEDLE="${param:9}"
         echo "Using Application Needle: ${APPLICATION_NEEDLE}" 1>&2
+    elif [ "${param:0:17}" = "--company-needle=" ]; then
+        COMPANY_NEEDLE="${param:17}"
+        echo "Using Company Needle: ${COMPANY_NEEDLE}" 1>&2
     elif [ "${param:0:13}" = "--sdk-needle=" ]; then
         SDK_PATH_NEEDLE="${param:13}"
         echo "Using SDK Path Needle: ${SDK_PATH_NEEDLE}" 1>&2
