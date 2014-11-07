@@ -2,7 +2,7 @@ Installation
     Requires maven (ex: `brew install maven`)
 
 Compile/Test:
-    ./compile.sh
+    ./util/compile.sh
 
 Run:
-    ./run.sh
+    ./util/run.sh

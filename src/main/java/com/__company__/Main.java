@@ -1,4 +1,4 @@
-package com.pillar;
+package com.__company__;
 
 class Main {
     public static void main(String[] args) {

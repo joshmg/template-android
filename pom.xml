@@ -2,7 +2,7 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <modelVersion>4.0.0</modelVersion>
-    <groupId>com.pillar</groupId>
+    <groupId>com.__company__</groupId>
     <artifactId>main</artifactId>
     <version>0.1.0</version>
     <packaging>jar</packaging>
@@ -56,7 +56,7 @@
                     <archive>
                         <manifest>
                             <addClasspath>true</addClasspath>
-                            <mainClass>com.pillar.Main</mainClass>
+                            <mainClass>com.__company__.Main</mainClass>
                         </manifest>
                     </archive>
                 </configuration>
@@ -70,7 +70,7 @@
                     </descriptorRefs>
                     <archive>
                         <manifest>
-                            <mainClass>com.pillar.Main</mainClass>
+                            <mainClass>com.__company__.Main</mainClass>
                         </manifest>
                     </archive>
                 </configuration>
