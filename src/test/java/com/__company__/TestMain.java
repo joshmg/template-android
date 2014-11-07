@@ -1,7 +1,7 @@
 import org.junit.*;
 import static org.junit.Assert.*;
 
-import com.__company__;
+// import com.__company__;
 
 public class TestMain {
     @Test
