@@ -1,0 +1,4 @@
+This template, or boiler-plate, makes the initial setup of an Android project built through Maven palatable.
+
+Be sure to have the Android SDK installed ( ex: ./util/install_sdk.sh ) or symlinked into the project directory (ex: ln -s /etc/android sdk).
+Be sure to edit the config file located at: util/config.sh
