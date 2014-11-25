@@ -76,12 +76,12 @@ if [ "${GET_MODE}" -gt 0 ]; then
             exit 0
         ;;
         VERSION)
-            version_name=`sed -n 's/.*android:versionName="\([0-9\.]\+\)".*/\1/p' "${DIR}AndroidManifest.xml"`
+            version_name=`sed -n 's/.*android:versionName="\([0-9\.]*\)".*/\1/p' "${DIR}AndroidManifest.xml"`
             echo "${version_name}"
             exit 0
         ;;
         VERSION_CODE)
-            version_code=`sed -n 's/.*android:versionCode="\([0-9]\+\)".*/\1/p' "${DIR}AndroidManifest.xml"`
+            version_code=`sed -n 's/.*android:versionCode="\([0-9]*\)".*/\1/p' "${DIR}AndroidManifest.xml"`
             echo "${version_code}"
             exit 0
         ;;
